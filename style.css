@@ -1,0 +1,288 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.nav {
+    padding: 2% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#edu {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: px; */
+}
+.img {
+    background-image: url(png-transparent-green-leaf-illustration-leaf-logo-banana-leaves-leaf-vegetable-text-maple-leaf-thumbnail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    border: 1px solid rgb(6, 142, 6);
+    border-radius: 30px;
+    
+}
+
+#edu h3 {
+    color: rgb(2, 106, 2);
+    font-weight: 300;
+    font-size: 30px;
+    
+}
+.anchor {
+    margin-left: 17%;
+}
+
+.anchor a  {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.button{
+    display: flex;
+   gap: 30px;
+}
+
+.button1 button {
+    margin-left: 14px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(1, 58, 1);
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+ #button2 button {
+    margin-left: 14px;
+    color: black;
+    font-size: 15px;
+    /* background-color: green; */
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#h3 {
+    font-size: 57px;
+    font-weight: 400;
+}
+.h3{
+    font-size: 55px;
+    margin-left: 15%;
+    margin-top: -10px;
+    font-weight: 400;
+    margin-top: -22px;
+}
+
+.content {
+    margin-left: 23%;
+    margin-top: 2%;
+    gap: 5%;
+}
+
+.para {
+    margin-left: 9px;
+}
+#para {
+    margin-left: 210px;
+}
+.ghu {
+    margin-left: 1%;
+}
+
+.button3 {
+    margin-top: 2%;
+    margin-left: 26%;
+}
+
+.button3 button {
+    margin-left: 14px;
+    color: black;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(1, 58, 1);
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+/* MAIN PART */
+
+.images{
+    
+    /* background-color: red; */
+    width: 80%;
+    height: 330px;
+    padding: 1% 1% ;
+    /* border: 2px solid black; */
+    margin-left: 7%;
+    display: flex;
+    /* flex-direction: row; */
+    /* gap: 20px; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 18%;
+}
+.firstimg{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 50%; */
+    /* background-color: black; */
+    height: 310px;
+    width: 16%;
+   
+}
+
+.img1{
+    height: 180px;
+    width: 95%;
+    /* background-color: yellow; */
+    border-radius: 25px;
+    background-image: url(poor-kid-cute-girl-poor-girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(89, 85, 85);
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+
+}
+.img1 p {
+    padding: 28% 8% ;
+}
+.typo{
+    height: 120px;
+    width: 95%;
+    background-color: rgb(49, 159, 64);
+    margin-top: 10px;
+    border-radius: 25px;
+    color: white;
+}
+.typo h3 {
+    font-size: 40px;
+    padding: 2% 8% ;
+}
+.typo p {
+    padding: 0% 8%;
+}
+.secondimg{
+    margin-left: 2px;
+    margin-top: 80px;
+    height: 230px;
+    width: 13%;
+    background-color: palevioletred;
+    border-radius: 25px;
+    background-image: url(portrait-young-african-american-female-teacher-glasses-looking-camera-classrom-holding-textbooks-blackboard-with-formulas-background-schooling-concept-books-hands-woman_153977-2091.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgba(146, 139, 139, 0.888);
+}
+.secondimg h3{
+    font-size: 40px;
+    padding: 2% 8% ;
+    margin-top: 110px;
+    font-weight: 900;
+}
+.secondimg p {
+    padding: 2% 8%;
+}
+.thirdimg{
+    margin-left: 10px;
+    margin-top: 130px;
+    height: 180px;
+    width: 12%;
+    background-color: rgb(5, 123, 162);
+    border-radius: 25px;
+    color: white;
+}
+.thirdimg p {
+    margin-top: 8px;
+    padding: 5% 10%;
+    font-size: 22px;
+
+}
+.thirdimg button {
+    height: 34px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(4, 22, 75);
+    color: white;
+    margin-left: 11px;
+}
+.fourthimg{
+    margin-left: 10px;
+    margin-top: 80px;
+    height: 230px;
+    width: 13%;
+    background-color: palevioletred;
+    border-radius: 25px;
+    background-image: url(360_F_649461336_VeKRYlh3Snjq7BCWXOmbh1IirtmWM1H3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.fourthimg p {
+    padding: 2% 8%;
+    margin-top: 180px;
+}
+
+.lastimg {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 50%; */
+    /* background-color: black; */
+    height: 310px;
+    width: 16%;
+    margin-left: 10px;
+}
+.img5{
+    height: 180px;
+    width: 95%;
+    background-color: rgb(3, 62, 15);
+    color: white;
+    border-radius: 25px;
+}
+
+.img5 h3{
+    margin-top: 10px;
+    padding: 2% 8%;
+    font-size: 45px;
+}
+.img5 p{
+    font-size: 20px;
+    margin-left: 110px;
+    line-height: 30px;
+}
+.typo2{
+    padding: 2% 8%;
+    height: 120px;
+    width: 95%;
+    /* background-color: rgb(3, 62, 15); */
+    background-image: url(istockphoto-1018966316-612x612.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+}
+.typo2 p {
+    margin-top: 60px;
+}
